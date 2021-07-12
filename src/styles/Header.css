@@ -1,0 +1,42 @@
+
+nav {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #dbd7cc;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li {
+	padding: 5px;
+	margin: 0 10px;
+	position: relative;
+	transition: all .3s;
+}
+
+nav ul li:hover {
+	opacity: .5;
+}
+
+nav ul:nth-child(2) li a::after {
+	content: '';
+	background-color: #000;
+	width: 0;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: all .3s;
+}
+
+nav ul:nth-child(2) li:hover a::after {
+	width: 100%;
+	right: 0;
+}

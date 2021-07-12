@@ -1,0 +1,27 @@
+@font-face {
+	font-family: iranSans;
+	src: url('./IranianSans.ttf');
+}
+
+@font-face {
+	font-family: vazir;
+	src: url('./vazir.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'vazir', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
